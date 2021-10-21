@@ -6,7 +6,7 @@ customerUpdate.onshow=function(){
         if (results.length == 0)    
            txtNames3.textContent = "There are no customers in the database."
         else {        
-           let message = ""
+           let message = ''
            for (i = 0; i < results.length; i++)
                message = message + results[i][1] + "\n"
           txtNames3.value = message
